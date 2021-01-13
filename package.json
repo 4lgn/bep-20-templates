@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "ganache-cli -f https://data-seed-prebsc-1-s1.binance.org:8545",
+    "devMain": "ganache-cli -f https://bsc-dataseed.binance.org",
+    "deploy": "truffle deploy",
+    "compile": "truffle compile",
+    "addLiq": "truffle exec scripts/add-liquidity.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0"
+  }
+}
